@@ -581,7 +581,7 @@ if __name__ == '__main__':
     #evaluator = CVEvaluator(job_desc, OT_SECURITY_PROFILE)
 
     # Evaluar todos los CVs en un directorio
-    results = evaluator.evaluate_directory(r"C:\Users\diego\Desktop\CVsTest")
+    results = evaluator.evaluate_directory(r"C:\Users\pruebas\Desktop\CVsTest")
 
     # Mostrar resultados
     df = pd.DataFrame(results)
